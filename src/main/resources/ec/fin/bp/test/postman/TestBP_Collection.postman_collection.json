@@ -1,0 +1,485 @@
+{
+	"info": {
+		"_postman_id": "02de0ee1-5290-4226-bb89-9d2c0b1f5cc2",
+		"name": "TestBP_Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "POST_CLIENTE_MONTALVO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contrasenia\": \"1234\",\r\n  \"estado\": true,\r\n  \"nombre\": \"Jose Lema\",\r\n  \"genero\": \"MASCULINO\",\r\n  \"edad\": 38,\r\n  \"identificacion\": \"1234567890\",\r\n  \"direccion\": \"Otavalo sn y principal\",\r\n  \"telefono\": \"098254785\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CLIENTE_OSORIO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contrasenia\": \"1245\",\r\n  \"estado\": true,\r\n  \"nombre\": \"Juan Osorio\",\r\n  \"genero\": \"MASCULINO\",\r\n  \"edad\": 38,\r\n  \"identificacion\": \"1234567892\",\r\n  \"direccion\": \"13 junio y Equinoccial\",\r\n  \"telefono\": \"098874587\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CLIENTE_LEMA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contrasenia\": \"1234\",\r\n  \"estado\": true,\r\n  \"nombre\": \"Jose Lema\",\r\n  \"genero\": \"MASCULINO\",\r\n  \"edad\": 38,\r\n  \"identificacion\": \"1234567890\",\r\n  \"direccion\": \"Otavalo sn y principal\",\r\n  \"telefono\": \"098254785\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CUENTA_AHORRO_LEMA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numeroCuenta\": \"478758\",\r\n  \"tipo\": \"AHORRO\",\r\n  \"saldoInicial\": 2000,\r\n  \"idCliente\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CUENTA_CORRIENTE_MONTALVO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numeroCuenta\": \"225487\",\r\n  \"tipo\": \"CORRIENTE\",\r\n  \"saldoInicial\": 100,\r\n  \"idCliente\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CUENTA_AHORROS_OSORIO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numeroCuenta\": \"495878\",\r\n  \"tipo\": \"AHORRO\",\r\n  \"saldoInicial\": 0,\r\n  \"idCliente\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CUENTA_AHORROS_MONTALVO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numeroCuenta\": \"496825\",\r\n  \"tipo\": \"AHORRO\",\r\n  \"saldoInicial\": 540,\r\n  \"idCliente\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_MOVIMIENTOS",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idCuenta\": 1,\r\n  \"valor\": 575,\r\n  \"tipoMovimiento\": \"DEBITO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_CUENTA_CORRIENTE_LEMA",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"numeroCuenta\": \"585545\",\r\n  \"tipo\": \"CORRIENTE\",\r\n  \"saldoInicial\": 1000,\r\n  \"idCliente\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/cuentas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"cuentas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_MOVIMIENTOS_2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idCuenta\": 2,\r\n  \"valor\": 600,\r\n  \"tipoMovimiento\": \"CREDITO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_MOVIMIENTOS_3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idCuenta\": 3,\r\n  \"valor\": 150,\r\n  \"tipoMovimiento\": \"CREDITO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "POST_MOVIMIENTOS_4",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"idCuenta\": 4,\r\n  \"valor\": 540,\r\n  \"tipoMovimiento\": \"DEBITO\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/movimientos",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "REPORTE_FECHAS_CLIENTE",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8091/bancobp/movimientos/reportes?fecha_desde=2022-10-01&fecha_fin=2022-10-01&id_cliente=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"movimientos",
+						"reportes"
+					],
+					"query": [
+						{
+							"key": "fecha_desde",
+							"value": "2022-10-01"
+						},
+						{
+							"key": "fecha_fin",
+							"value": "2022-10-01"
+						},
+						{
+							"key": "id_cliente",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET_CLIENTE_ID",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PUT_CLIENTE_ID",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"contrasenia\": \"12345\",\r\n  \"estado\": true,\r\n  \"nombre\": \"Jose Luis Lema\",\r\n  \"genero\": \"MASCULINO\",\r\n  \"edad\": 37,\r\n  \"identificacion\": \"123456799\",\r\n  \"direccion\": \"Otavalo sn y principal CAMBIO\",\r\n  \"telefono\": \"0982547856\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DELETE_CLIENTE_ID",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8091/bancobp/clientes/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8091",
+					"path": [
+						"bancobp",
+						"clientes",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
